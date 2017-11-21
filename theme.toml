@@ -4,18 +4,8 @@
 name = "Tufte"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
-tags = []
+description = "Theme your website like Edward Tufte’s handouts."
+homepage = ""
+tags = ["minimal", "tufte"]
 features = []
 min_version = "0.31"
-
-[author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
