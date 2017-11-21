@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<ul>
+{{ range .Pages }}
+<li>
+  <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+  <time class="date-meta">{{ .Date.Format "Jan 2" }}</time>
+</li>
+{{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

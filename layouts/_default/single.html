@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<article>
+
+<h1>{{ if .Draft }}DRAFT{{ end }}{{ .Title }}</h1>
+<p class="subtitle">{{ .Date.Format "January 2, 2006" }}</p>
+
+{{ .Content }}
+
+</article>
+{{ partial "footer.html" . }}
